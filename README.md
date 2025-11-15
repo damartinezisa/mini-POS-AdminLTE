@@ -9,6 +9,7 @@ Free admin dashboard template based on https://adminlte.io in [Asp.net MVC](http
 ## Table of Contents
 * [Getting Started](#getting-started)
 * [Installation](#installation)
+* [VPS Deployment Requirements](#vps-deployment-requirements)
 * [Features](#features)
 * [Contributing](#contributing)
 * [Screenshots](#Screenshots)
@@ -34,6 +35,19 @@ git clone https://github.com/mak-thevar/AdminLTEAspNetMVC.git
 - The appSettings can be found under ```Configs/appSettings.config```
 - Now Build the project, initially the project will take longer time to build because it will download all the npm packages and compile/minify the js and css respectively.
 
+
+## VPS Deployment Requirements
+
+For detailed information about deploying this project on a shared VPS environment, including minimum server requirements, configuration, and deployment steps, please refer to:
+
+📄 **[REQUISITOS_VPS.md](REQUISITOS_VPS.md)** _(Spanish)_
+
+This document includes:
+- Server and framework requirements (.NET Framework 4.6.2, IIS, SQL Server)
+- Hardware specifications for shared VPS
+- Step-by-step deployment process
+- Security considerations
+- Common troubleshooting tips
 
 
 ## Features
